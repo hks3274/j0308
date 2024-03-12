@@ -11,6 +11,7 @@ public interface Menu {
 	void foodCalc(int i);
 		//TOTAl_PRICE += PRICE[i];
 	
+	//현재의 프로그램에서 아래의 default 메소드는 생략처리해도 됨...
   default void lunchCalc(int i) {
   	foodCalc(i);
   };
